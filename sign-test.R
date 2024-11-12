@@ -8,3 +8,9 @@ library("BSDA")
 
 dat <- read.csv2(file = "data/minute.csv", header = FALSE)
 SIGN.test(dat$V1, md = 60)
+
+# Hands on:
+N_PLUS = 11
+N = 27
+Z = (N_PLUS - (N / 2)) / sqrt(N / 4)
+  
