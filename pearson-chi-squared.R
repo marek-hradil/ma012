@@ -2,7 +2,7 @@
 # What is it for: Check if data could be from some particular distribution
 # H_0           : Could be
 # H_1           : Are not
-# How to read   : 
+# How to read   : p value
 
 tab.raw <- read.csv2(file = "data/families.csv")
 k <- nrow(tab)

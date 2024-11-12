@@ -1,0 +1,1 @@
+cor(dat$members, dat$expense, method = "kendall")
